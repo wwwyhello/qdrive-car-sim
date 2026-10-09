@@ -1,5 +1,16 @@
-# QDrive 小车控制项目
-## 项目介绍
-小车状态模拟器，支持手动/自动模式，设置轮子转速，输出小车运行状态。
+# 四轮小车控制模拟程序
 
-## 项目结构
+## 项目简介
+本程序实现四轮小车模拟控制，支持 start、auto、manual、step、emergency、reset、status、quit 命令。
+
+## 编译环境
+- CMake 3.16+
+- MinGW‑make
+
+## 编译步骤
+```bash
+# 新建build文件夹
+mkdir build
+cd build
+cmake .. -G "MinGW Makefiles"
+mingw32-make
